@@ -1,4 +1,4 @@
-git ipackage br.edu.ufabc.spgig;
+package br.edu.ufabc.spgig;
 
 import androidx.appcompat.app.AppCompatActivity;
 
