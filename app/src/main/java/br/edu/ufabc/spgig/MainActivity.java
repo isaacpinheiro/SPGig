@@ -1,6 +1,8 @@
 package br.edu.ufabc.spgig;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +12,26 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private RecyclerView indexRv;
+    private RecyclerView.LayoutManager indexRvLayoutManager;
+    private RecyclerView.Adapter indexRvAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        inicializarComponentes();
+    }
+
+    public void inicializarComponentes() {
+
+        this.indexRv = (RecyclerView) findViewById(R.id.index_rv);
+        this.indexRv.setHasFixedSize(true);
+        this.indexRvLayoutManager = new LinearLayoutManager(this);
+        this.indexRv.setLayoutManager(this.indexRvLayoutManager);
+        this.indexRvAdapter = new IndexAdapter();
+        this.indexRv.setAdapter(this.indexRvAdapter);
+
     }
 
     @Override
