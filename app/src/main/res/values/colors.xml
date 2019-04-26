@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#2288AA</color>
     <color name="colorPrimaryDark">#226688  </color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="cor_titulo">#4499ff</color>
+    <color name="cor_texto">#888855</color>
+
 </resources>

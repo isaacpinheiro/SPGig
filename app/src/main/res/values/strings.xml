@@ -1,6 +1,28 @@
 <resources>
+
     <string name="app_name">SPGig</string>
     <string name="main_menu_sobre">Sobre o SPGig</string>
     <string name="main_menu_ajuda">Ajuda</string>
     <string name="main_menu_area_produtor">Área do Produtor</string>
+
+    <string name="sobre_texto_tview">
+        O SPGig é um aplicativo que tem o objetivo de divulgar atrações culturais e de entretenimento na
+        região metropolitana da Grande São Paulo.
+    </string>
+
+    <string name="sobre_texto_tview2">
+        Com o SPGig os usuários têm acesso a informações como a localização dos eventos, as datas de
+        realização, preços, informações a respeito dos organizadores, além de imagens mostrando como
+        são as instalações dos eventos.
+    </string>
+
+    <string name="sobre_texto_tview3">
+        Se você é um produtor de eventos, seja muito bem-vindo ao SPGig e crie uma conta para poder divulgar
+        os seus eventos.
+    </string>
+
+    <string name="sobre_texto_tview4">
+        Desenvolvido por Isaac Pinheiro.
+    </string>
+
 </resources>
