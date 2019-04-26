@@ -25,4 +25,25 @@
         Desenvolvido por Isaac Pinheiro.
     </string>
 
+    <string name="ajuda_texto_tview">
+        Para utilizar o SPGig basta clicar no tipo de atração que você está procurando (Shows,
+        Teatro, Cinema, ...) e logo em seguida você será direcionado para uma tela listando várias
+        atrações do tipo escolhido.
+    </string>
+
+    <string name="ajuda_texto_tview2">
+        Na tela em que lista as atrações você pode filtrar as buscas escolhendo a cidade do seu
+        interesse.
+    </string>
+
+    <string name="ajuda_texto_tview3">
+        Quando você clicar em uma das atrações, você será direcionado para uma outra tela
+        mostrando todos os detalhes da atração, como por exemplo, a localização, data e horário
+        da realização do evento, preços e entre outros.
+    </string>
+
+    <string name="ajuda_texto_tview4">
+        Você pode fazer as buscas quantas vezes quiser. Com o SPGig o seu rolê não tem erro!
+    </string>
+
 </resources>
