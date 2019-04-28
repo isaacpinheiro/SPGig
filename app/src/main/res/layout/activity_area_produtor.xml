@@ -7,13 +7,49 @@
     tools:context=".AreaProdutorActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/area_produtor_titulo_tview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="Área do Produtor"
+        android:text="@string/main_menu_area_produtor"
+        android:textSize="35sp"
+        android:textColor="@color/cor_titulo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/area_produtor_entrar_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button_custom"
+        android:textColor="@color/cor_txt_btn"
+        android:text="@string/area_produtor_entrar_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/area_produtor_titulo_tview" />
+
+    <Button
+        android:id="@+id/area_produtor_cadastrese_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button_custom"
+        android:textColor="@color/cor_txt_btn"
+        android:text="@string/area_produtor_cadastrese_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/area_produtor_entrar_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

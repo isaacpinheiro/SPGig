@@ -5,7 +5,9 @@
     <color name="colorPrimaryDark">#226688  </color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="cor_titulo">#4499ff</color>
+    <color name="cor_titulo">#4499FF</color>
     <color name="cor_texto">#888855</color>
+    <color name="cor_btn">#66BBFF</color>
+    <color name="cor_txt_btn">#FFFFFF</color>
 
 </resources>

@@ -46,4 +46,7 @@
         Você pode fazer as buscas quantas vezes quiser. Com o SPGig o seu rolê não tem erro!
     </string>
 
+    <string name="area_produtor_entrar_btn">Entrar</string>
+    <string name="area_produtor_cadastrese_btn">Cadastre-se</string>
+
 </resources>

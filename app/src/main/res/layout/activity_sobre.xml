@@ -17,7 +17,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:text="@string/main_menu_sobre"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:textColor="@color/cor_titulo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
