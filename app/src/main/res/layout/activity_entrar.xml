@@ -7,13 +7,59 @@
     tools:context=".EntrarActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/entrar_area_produtor_titulo_tview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="Entrar"
+        android:text="@string/main_menu_area_produtor"
+        android:textSize="35sp"
+        android:textColor="@color/cor_titulo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/entrar_nomeusuario_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/entrar_nomeusuario_edittext"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entrar_area_produtor_titulo_tview" />
+
+    <EditText
+        android:id="@+id/entrar_senha_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/entrar_senha_edittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entrar_nomeusuario_edittext" />
+
+    <Button
+        android:id="@+id/entrar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/entrar_btn"
+        android:background="@color/cor_btn"
+        android:textColor="@color/cor_txt_btn"
+        app:layout_constraintStart_toStartOf="@+id/entrar_senha_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/entrar_senha_edittext" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

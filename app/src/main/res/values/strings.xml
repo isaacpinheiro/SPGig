@@ -49,4 +49,8 @@
     <string name="area_produtor_entrar_btn">Entrar</string>
     <string name="area_produtor_cadastrese_btn">Cadastre-se</string>
 
+    <string name="entrar_nomeusuario_edittext">Nome de Usuário</string>
+    <string name="entrar_senha_edittext">Senha</string>
+    <string name="entrar_btn">Entrar</string>
+
 </resources>
