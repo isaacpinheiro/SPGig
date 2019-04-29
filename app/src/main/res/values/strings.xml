@@ -53,4 +53,14 @@
     <string name="entrar_senha_edittext">Senha</string>
     <string name="entrar_btn">Entrar</string>
 
+    <string name="cadastrar_nome_edittext">Nome/Razão Social</string>
+    <string name="cadastrar_nomeusuario_edittext">Nome de Usuário</string>
+    <string name="cadastrar_cnpj_edittext">CNPJ</string>
+    <string name="cadastrar_emailcontato_edittext">E-Mail de Contato</string>
+    <string name="cadastrar_telefonecontato_edittext">Telefone de Contato</string>
+    <string name="cadastrar_site_edittext">Site</string>
+    <string name="cadastrar_senha_edittext">Senha</string>
+    <string name="cadastrar_confirmesenha_edittext">Confirme a sua Senha</string>
+    <string name="cadastrar_btn">Cadastrar</string>
+
 </resources>
