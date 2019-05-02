@@ -1,9 +1,13 @@
 <resources>
 
+    <!-- MainActivity -->
+
     <string name="app_name">SPGig</string>
     <string name="main_menu_sobre">Sobre o SPGig</string>
     <string name="main_menu_ajuda">Ajuda</string>
     <string name="main_menu_area_produtor">Área do Produtor</string>
+
+    <!-- SobreActivity -->
 
     <string name="sobre_texto_tview">
         O SPGig é um aplicativo que tem o objetivo de divulgar atrações culturais e de entretenimento na
@@ -24,6 +28,8 @@
     <string name="sobre_texto_tview4">
         Desenvolvido por Isaac Pinheiro.
     </string>
+
+    <!-- AjudaActivity -->
 
     <string name="ajuda_texto_tview">
         Para utilizar o SPGig basta clicar no tipo de atração que você está procurando (Shows,
@@ -46,12 +52,18 @@
         Você pode fazer as buscas quantas vezes quiser. Com o SPGig o seu rolê não tem erro!
     </string>
 
+    <!-- AreaProdutorActivity -->
+
     <string name="area_produtor_entrar_btn">Entrar</string>
     <string name="area_produtor_cadastrese_btn">Cadastre-se</string>
+
+    <!-- EntrarActivity -->
 
     <string name="entrar_nomeusuario_edittext">Nome de Usuário</string>
     <string name="entrar_senha_edittext">Senha</string>
     <string name="entrar_btn">Entrar</string>
+
+    <!-- CadastrarActivity -->
 
     <string name="cadastrar_nome_edittext">Nome/Razão Social</string>
     <string name="cadastrar_nomeusuario_edittext">Nome de Usuário</string>
@@ -62,5 +74,52 @@
     <string name="cadastrar_senha_edittext">Senha</string>
     <string name="cadastrar_confirmesenha_edittext">Confirme a sua Senha</string>
     <string name="cadastrar_btn">Cadastrar</string>
+
+    <!-- GigActivity -->
+
+    <string name="gig_cidade_tv">Cidade:</string>
+
+    <string-array name="gig_cidade_array">
+        <item>Todas</item>
+        <item>Arujá</item>
+        <item>Barueri</item>
+        <item>Biritiba Mirim</item>
+        <item>Caieiras</item>
+        <item>Cajamar</item>
+        <item>Carapicuiba</item>
+        <item>Cotia</item>
+        <item>Diadema</item>
+        <item>Embu das Artes</item>
+        <item>Embu-Guaçu</item>
+        <item>Ferraz de Vasconcelos</item>
+        <item>Francisco Morato</item>
+        <item>Franco da Rocha</item>
+        <item>Guararema</item>
+        <item>Guarulhos</item>
+        <item>Itapecerica da Serra</item>
+        <item>Itapevi</item>
+        <item>Itaquaquecetuba</item>
+        <item>Jandira</item>
+        <item>Juquitiba</item>
+        <item>Mairiporã</item>
+        <item>Mauá</item>
+        <item>Mogi das Cruzes</item>
+        <item>Osasco</item>
+        <item>Pirapora do Bom Jesus</item>
+        <item>Poá</item>
+        <item>Ribeirão Pires</item>
+        <item>Rio Grande da Serra</item>
+        <item>Salesópolis</item>
+        <item>Santa Isabel</item>
+        <item>Santana de Parnaíba</item>
+        <item>Santo André</item>
+        <item>São Bernardo do Campo</item>
+        <item>São Caetano do Sul</item>
+        <item>São Lourenço da Serra</item>
+        <item>São Paulo</item>
+        <item>Suzano</item>
+        <item>Taboão da Serra</item>
+        <item>Vargem Grande Paulista</item>
+    </string-array>
 
 </resources>
