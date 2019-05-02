@@ -1,5 +1,7 @@
 package br.edu.ufabc.spgig;
 
+import java.util.List;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -9,7 +11,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Spinner;
-import android.widget.Toast;
+
+import br.edu.ufabc.spgig.model.Gig;
 
 public class GigActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -17,6 +20,8 @@ public class GigActivity extends AppCompatActivity implements AdapterView.OnItem
     private Spinner gigCidadeSpinner;
     private String tipo;
     private String cidade;
+
+    public static List<Gig> gigs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,10 +53,20 @@ public class GigActivity extends AppCompatActivity implements AdapterView.OnItem
 
     }
 
+    private void buscarGigs() {
+
+        if (this.cidade.equals("Todas")) {
+            // TODO
+        } else {
+            // TODO
+        }
+
+    }
+
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         this.cidade = parent.getItemAtPosition(position).toString();
-        //Toast.makeText(getBaseContext(), cidade, Toast.LENGTH_SHORT).show();
+        buscarGigs();
     }
 
     @Override

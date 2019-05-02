@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import br.edu.ufabc.spgig.model.Gig;
+
 public class GigAdapter extends RecyclerView.Adapter<GigAdapter.ViewHolder> {
 
     public GigAdapter() {
@@ -35,6 +37,10 @@ public class GigAdapter extends RecyclerView.Adapter<GigAdapter.ViewHolder> {
 
     }
 
+    private String formatarData(Gig gig) {
+        return gig.getDataInicio().toLocaleString();
+    }
+
     @NonNull
     @Override
     public GigAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -48,12 +54,18 @@ public class GigAdapter extends RecyclerView.Adapter<GigAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GigAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final GigAdapter.ViewHolder holder, final int position) {
+
+        holder.gigRvNomeTv.setText(GigActivity.gigs.get(position).getNome());
+        holder.gigRvCidadeTv.setText("Cidade: " + GigActivity.gigs.get(position).getCidade());
+        holder.gigRvDataTv.setText("Data: " + formatarData(GigActivity.gigs.get(position)));
 
         holder.gigRvLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO
+                Intent intent = new Intent(holder.context, DetalhesActivity.class);
+                intent.putExtra("position", position);
+                holder.context.startActivity(intent);
             }
         });
 
@@ -61,7 +73,7 @@ public class GigAdapter extends RecyclerView.Adapter<GigAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return GigActivity.gigs.size();
     }
 
 }
