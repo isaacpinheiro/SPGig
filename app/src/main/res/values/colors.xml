@@ -9,5 +9,6 @@
     <color name="cor_texto">#888855</color>
     <color name="cor_btn">#66BBFF</color>
     <color name="cor_txt_btn">#FFFFFF</color>
+    <color name="cor_nome_gig_rv">#0066ff</color>
 
 </resources>

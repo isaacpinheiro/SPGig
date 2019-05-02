@@ -16,6 +16,7 @@ public class GigActivity extends AppCompatActivity implements AdapterView.OnItem
     private TextView gigTipoTv;
     private Spinner gigCidadeSpinner;
     private String tipo;
+    private String cidade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +50,7 @@ public class GigActivity extends AppCompatActivity implements AdapterView.OnItem
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        String cidade = parent.getItemAtPosition(position).toString();
+        this.cidade = parent.getItemAtPosition(position).toString();
         //Toast.makeText(getBaseContext(), cidade, Toast.LENGTH_SHORT).show();
     }
 
